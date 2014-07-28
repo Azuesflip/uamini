@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Uamini | Home</title>
-  </head>
-  <body>
-    <h1>Uamini</h1>
-    <p>
-      This is the home page for the
-      <a href="http://www.uamini.com/dev/">Uamini</a>
-      web application.
-    </p>
-  </body>
-</html>
+<div class="center hero-unit">
+  <h1>Welcome to Uamini</h1>
 
+  <h2>
+    This is the home page for the
+    <a href="http://www.uamini.com/dev/">Uamini</a>
+    web application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
